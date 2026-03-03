@@ -1,0 +1,23 @@
+.footer {
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: auto;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+.rights{
+  color: white;
+}

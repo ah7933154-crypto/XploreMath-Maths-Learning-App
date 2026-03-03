@@ -1,0 +1,31 @@
+:root {
+  --primary: #2dd528;
+  --primary-dark: #15de29;
+  --bg-page: #ffffff;
+  --text-main: #2D3436;
+  --text-muted: #636E72;
+  --white: #FFFFFF;
+  --shadow-md: 0 12px 30px rgba(0, 0, 0, 0.08);
+  --transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.forum-wrapper { min-height: 100vh; background: var(--bg-page); color: var(--text-main); font-family: 'Inter', sans-serif; overflow-x: hidden; padding-bottom: 80px; }
+.forum-blob { position: absolute; width: 600px; height: 600px; background: var(--primary); opacity: 0.04; border-radius: 50%; filter: blur(100px); pointer-events: none; }
+.blob-1 { top: -100px; right: -100px; }
+
+.forum-header { padding: 40px 5% 60px; max-width: 1280px; margin: 0 auto; }
+.forum-intro h1 { font-size: 3.5rem; font-weight: 800; margin-bottom: 16px; }
+.forum-intro .highlight { color: var(--primary); }
+
+.forum-grid { display: grid; grid-template-columns: 400px 1fr; gap: 40px; max-width: 1280px; margin: 0 auto; padding: 0 5%; }
+.forum-badge { margin-bottom: 16px; display: inline-block; background: var(--primary); color: white; padding: 4px 12px; border-radius: 12px; font-size: 0.75rem; font-weight: 600; }
+.form-card { background: white; padding: 40px; border-radius: 32px; box-shadow: var(--shadow-md); border: 1px solid rgba(0,0,0,0.03); }
+.input-group { display: flex; align-items: center; background: #f8faf8; border: 1.5px solid #f0f3f0; border-radius: 16px; padding: 0 16px; margin-bottom: 16px; }
+.input-group input, .input-group textarea { width: 100%; border: none; background: transparent; padding: 16px 12px; font-size: 0.95rem; outline: none; }
+.back-link { display: inline-flex; align-items: center; gap: 8px; color: var(--primary); font-weight: 600; margin-bottom: 24px; text-decoration: none;  margin-left: 0;}
+.btn-submit { width: 100%; display: flex; align-items: center; justify-content: center; gap: 12px; background: var(--primary); color: white; border: none; padding: 16px; border-radius: 14px; font-weight: 700; cursor:pointer ; transition : var(--transition); box-shadow : rgba(45,213,40, .2) ; }
+.btn-submit:hover { transform : translateY(-3px) ; background : var(--primary-dark) ; }
+
+.query-card-v2 { background: white; padding: 24px; border-radius: 24px; display: flex; gap: 20px; border: 1px solid #f0f0f0; transition: var(--transition); margin-bottom: 20px; }
+.query-card-v2:hover { transform: translateX(10px); border-color: var(--primary); }
+.user-avatar { width: 48px; height: 48px; background: #f1fbf1; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; color: var(--primary-dark); }

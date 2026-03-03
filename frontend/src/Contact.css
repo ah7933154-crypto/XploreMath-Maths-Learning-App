@@ -1,0 +1,31 @@
+:root {
+  --primary: #2dd528;
+  --primary-dark: #15de29;
+  --bg-page: #f9fbf9;
+  --text-main: #2D3436;
+  --text-muted: #636E72;
+  --shadow-md: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.contact-wrapper { min-height: 100vh; background: var(--bg-page); color: var(--text-main); font-family: 'Inter', sans-serif; overflow-x: hidden; padding-bottom: 80px; }
+.contact-blob { position: absolute; width: 600px; height: 600px; background: var(--primary); opacity: 0.04; border-radius: 50%; filter: blur(100px); pointer-events: none; }
+.blob-1 { top: -100px; right: -100px; }
+
+.contact-header { padding: 40px 5% 60px; max-width: 1280px; margin: 0 auto; }
+.contact-intro h1 { font-size: 3.5rem; font-weight: 800; margin-bottom: 16px; }
+.contact-intro .highlight { color: var(--primary); }
+
+.contact-grid { display: grid; grid-template-columns: 320px 1fr; gap: 40px; max-width: 1280px; margin: 0 auto; padding: 0 5%; }
+
+.info-card, .form-card { background: white; padding: 40px; border-radius: 32px; box-shadow: var(--shadow-md); border: 1px solid rgba(0,0,0,0.03); }
+.info-text span { font-weight: 600; color: var(--primary); }
+.input-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+.input-group { display: flex; align-items: center; background: #f8faf8; border: 1.5px solid #f0f3f0; border-radius: 16px; padding: 0 16px; transition: 0.3s; }
+.input-group:focus-within { border-color: var(--primary); background: white; }
+.input-group input, .input-group textarea { width: 100%; border: none; background: transparent; padding: 16px 12px; font-size: 0.95rem; outline: none; }
+
+.btn-submit { width: 100%; display: flex; align-items: center; justify-content: center; gap: 12px; background: var(--primary); color: white; border: none; padding: 16px; border-radius: 14px; font-weight: 700; cursor: pointer; transition: 0.3s; box-shadow: 0 10px 20px rgba(45, 213, 40, 0.2); }
+.btn-submit:hover { transform: translateY(-3px); background: var(--primary-dark); }
+
+.submission-card-v2 { background: white; padding: 24px; border-radius: 24px; display: flex; gap: 20px; border: 1px solid #f0f0f0; transition: 0.3s; margin-top: 16px; }
+.sub-avatar { width: 44px; height: 44px; background: #f1fbf1; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-weight: 800; color: var(--primary-dark); }

@@ -4,8 +4,7 @@
 "dist/" 
 "build/" 
 ".env" 
-"*.db" 
 "xploremath.db" 
 "node_modules/" 
 "__pycache__/" 
-"*.pyc" 
+

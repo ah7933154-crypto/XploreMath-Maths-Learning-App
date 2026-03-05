@@ -1,10 +1,7 @@
-"node_modules/" 
-".env" 
-".env.local" 
-"dist/" 
-"build/" 
-".env" 
-"xploremath.db" 
-"node_modules/" 
-"__pycache__/" 
-
+node_modules/
+.env
+.env.local
+dist/
+build/
+xploremath.db
+__pycache__/
